@@ -1,234 +1,266 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Zomato logo in the tab -->
-    <link rel="icon" type="image/x-icon"
-        href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png" />
-    <!-- Font awesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Poppins font by google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
-
-    <!-- Importing styles.css -->
-    <link rel="stylesheet" href="/styles.css" />
-
-    <title>Zomato Landing Page Clone </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="hero__section">
-        <header>
-
-            <nav class="navbar">
-                <a href="#">get the app</a>
-                <div class="navbar_menu_container">
-                    <a href="#" class="link">Investor relation</a>
-                    <a href="#" class="link">Add restaurant</a>
-                    <a href="#" class="link">Sign up </a>
-                    <a href="#" class="link">Log in</a>
-                    <a href="#" class="user_icon">
-                        <i class="fa-solid fa-user"></i>
-                    </a>
-                </div>
-            </nav>
-        </header>
-        <div class="hero__section_container">
-            <img class="hero__section_logo" src="./images/heroSectionLogo.png" alt="xomato">
-            <h1 class="hero__section_tittle">Discover the best food &drinks in Hampi-hospect</h1>
-            <div class="hero__section_input_container">
-                <input class="input_container_location" type="text" placeholder="Hampi-hospect" />
-                <input class="input_container_search" type="text"
-                    placeholder="Search for a restaurant,cusine or a dish" />
+    <!-- sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <!-- profile image -->
+        <div class="profile">
+            <div class="profile-img">
+                <img src="img/profile.jpg" alt="profile">
             </div>
-        </div>
-    </section>
-    <section class="container we__offer">
-        <div class="we__offer_card">
-            <img src="./images/item1.png" alt="card 1 img">
-            <div class="we__offer_content">
-                <h2>Order Online</h2>
-                <p>stay home and order to your dooorstep</p>
+            <div class="name">
+                <h1>amaansiddiqui</h1>
+                <img src="img/verify.png" alt="verify">
             </div>
-        </div>
-        <div class="we__offer_card">
-            <img src="./images/item2.png" alt="card 2 img">
-            <div class="we__offer_content">
-                <h2>Dinning</h2>
-                <p>view the citys favourite dining venue</p>
-            </div>
-        </div>
-        <div class="we__offer_card">
-            <img src="./images/item3.png" alt="card 3 img">
-            <div class="we__offer_content">
-                <h2>Night life and cludbs</h2>
-                <p>Explore the citys top nightlife outlets</p>
-            </div>
-        </div>
-        <div class="we__offer_card">
-            <img src="./images/item4.png" alt="card 4 img">
-            <div class="we__offer_content">
-                <h2>kha lo sharmao mat!</h2>
-                <p>dil ki baat zubaan par sirf ek click pe</p>
-            </div>
-        </div>
-    </section>
-    <section class="container collections">
-        <h1>Collections</h1>
-        <div class="sub__heading_container">
-            <span>Explore curated lists of top restaurants,cafes,pubs in hospet-hampi based on trends</span>
-            <span>All collections in hospet-hampi</span>
-        </div>
-        <div class="collections__card_container">
-            <div class="card card1" id=" grad">
-                <div class="overlay"></div>
-                <div class="content">
-                    <h4>Live cricket screening </h4>
-                    <span>57 Places</span>
-                </div>
-            </div>
-
-            <div class="card card2">
-                <div class="overlay"></div>
-                <div class="content">
-                    <h4>Live cricket screening </h4>
-                    <span>57 Places</span>
-                </div>
-            </div>
-
-            <div class="card card3">
-                <div class="overlay"></div>
-                <div class="content">
-                    <h4>Live cricket screening </h4>
-                    <span>57 Places</span>
-                </div>
-            </div>
-
-            <div class="card card4">
-                <div class="overlay"></div>
-                <div class="content">
-                    <h4>Live cricket screening </h4>
-                    <span>57 Places</span>
-                </div>
-            </div>
+            <span>@amaansid</span>
 
         </div>
-    </section>
-    <secion class="container get__the_app">
-        <div class="semicontainer">
-            <div class="left">
-                <img src="./images/mobileBanner.png" alt="mobile banner">
+        <!-- about -->
+        <div class="About">
+            <!-- box1 -->
+            <div class="box">
+                <h3>54</h3>
+                <span>Posts</span>
             </div>
-            <div class="right">
-                <h1>Get the Zomato app</h1>
-                <p>we will send you a link ,open it and download in your phone</p>
-                <div class="radio__button_container">
-                    <div>
-                        <input type="radio" id="email" name="download_app" />
-                        <label for="email" style="font-size:14px;">Email</label>
+            <!-- box2 -->
+            <div class="box">
+                <h3>17.6k</h3>
+                <span>Followers</span>
+            </div>
+            <!-- box3 -->
+            <div class="box">
+                <h3>25</h3>
+                <span>Following</span>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="menu">
+
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-function-line"></i>
+                </span>
+                Feed
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-notification-4-line"></i>
+                </span>
+                Notification
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-search-2-line"></i>
+                </span>
+                Explore
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-mail-unread-fill"></i>
+                </span>
+                Message
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-send-plane-fill"></i>
+                </span>
+                Direct
+            </a>
+
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-bar-chart-fill"></i>
+                </span>
+                Stats
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-settings-4-line"></i>
+                </span>
+               Settings
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <i class="ri-logout-box-r-line"></i>
+                </span>
+                Logout
+            </a>
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <!-- Main home -->
+    <div class="main-home">
+        <div class="header">
+            <!-- search -->
+            <div class="search">
+                <i class="ri-search-line"></i>
+                <input type ="text" name="" id="" placeholder="search">
+            </div>
+            <div class="header-content">
+                <i class="ri-notification-4-line"></i>
+                <i class="ri-mail-unread-fill"></i>
+                <!-- button -->
+                <a href="#"class="btn">
+                    <i class="ri-add-circle-fill"></i>
+                    <div class="btn-text">
+                        Add Photos
                     </div>
-                    <div>
-                        <input type="radio" id="phone" name="download" />
-                        <label for="phone" style="font-size:14px">Phone</label>
+                </a>
+            </div>
+        </div>
+        <div class="stories-title">
+            <h1>Stories</h1>
+            <a href="#" class="btn">
+                <i class="ri-play-circle-fill"></i>
+                <div class="text">
+                    Watch all
+                </div>
+            </a>
+        </div>
+        <div class="stories">
+            <!-- Stories-1 -->
+            <div class="stories-img color">
+                <img src="img/profile.jpg" alt="profile">
+                <div class="add">+</div>
+            </div>
+            <!-- Stories-2 -->
+            <div class="stories-img">
+                <img src="img/profile2.jpg" alt="profile">
+            </div>
+            <!-- Stories-3 -->
+            <div class="stories-img">
+                <img src="img/profile3.jpg" alt="profile">
+            </div>
+            <!-- Stories-4 -->
+            <div class="stories-img">
+                <img src="img/profile4.jpg" alt="profile">
+            </div>
+            <!-- Stories-5 -->
+            <div class="stories-img">
+                <img src="img/profile5.jpg" alt="profile">
+            </div>
+            <!-- Stories-6 -->
+            <div class="stories-img">
+                <img src="img/profile6.jpg" alt="profile">
+            </div>
+            <!-- Stories-7 -->
+            <div class="stories-img">
+                <img src="img/profile7.jpg" alt="profile">
+            </div>
+            <!-- Stories-8 -->
+            <div class="stories-img">
+                <img src="img/profile8.jpg" alt="profile">
+            </div>
+            <!-- Stories-9 -->
+            <div class="stories-img">
+                <img src="img/profile9.jpg" alt="profile">
+            </div>
+            <!-- Stories-10 -->
+            <div class="stories-img">
+                <img src="img/profile10.jpg" alt="profile">
+            </div>
+        </div>
+        <div class="feed">
+            <h1>Feed</h1>
+            <div class="feed-text">
+                <h2>Latest</h2>
+                <span>popular</span>
+            </div>
+        </div>
+        <div class="main-post">
+            <!-- Box1 -->
+            <div class="post-box">
+                <img src="img/post1.jpg" alt="post1">
+                <div class="post-info">
+                    <div class="post-profile">
+                        <div class="post-img">
+                            <img src="img/profile10.jpg" alt="profile10">
+                        </div>
+                        <h3>zareen</h3>
+                        <div class="likes">
+                            <i class="ri-heart-line"></i>
+                            <span>32.5k</span>
+                            <i class="ri-chat-3-line"></i>
+                            <span>32</span>
+                        </div>
                     </div>
                 </div>
-                <div class="input_container">
-                    <input type="text" placeholder="Email" />
-                    <button>Share App Link</button>
+            </div>
+            <!-- Box-2 -->
+            <div class="post-box">
+                <img src="img/post2.jpg" alt="post1">
+                <div class="post-info">
+                    <div class="post-profile">
+                        <div class="post-img">
+                            <img src="img/profile5.jpg" alt="profile10">
+                        </div>
+                        <h3>Samuel J</h3>
+                        <div class="likes">
+                            <i class="ri-heart-line"></i>
+                            <span>42.5k</span>
+                            <i class="ri-chat-3-line"></i>
+                            <span>632</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="download__app_container">
-                    <h5>Download App from</h5>
-                    <div>
-                        <img src="./images/appleStore.png" alt="Applestore">
-                        <img src="./images/playStore.png" alt="playstore">
+            </div>
+            <!-- Box-3 -->
+            <div class="post-box">
+                <img src="img/post3.jpg" alt="post1">
+                <div class="post-info">
+                    <div class="post-profile">
+                        <div class="post-img">
+                            <img src="img/profile4.jpg" alt="profile10">
+                        </div>
+                        <h3>jenny </h3>
+                        <div class="likes">
+                            <i class="ri-heart-line"></i>
+                            <span>322.5k</span>
+                            <i class="ri-chat-3-line"></i>
+                            <span>532</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Box-4 -->
+            <div class="post-box">
+                <img src="img/profile7.jpg" alt="post1">
+                <div class="post-info">
+                    <div class="post-profile">
+                        <div class="post-img">
+                            <img src="img/profile8.jpg" alt="profile10">
+                        </div>
+                        <h3>killerop </h3>
+                        <div class="likes">
+                            <i class="ri-heart-line"></i>
+                            <span>504.5k</span>
+                            <i class="ri-chat-3-line"></i>
+                            <span>622</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </secion>
-    <!-- footer section -->
-    <footer class="container footer">
-        <div class="footer_section1">
-            <img src="images/logo.png" alt="zomato logo" />
-            <div class="section1__buttonContainer">
-                <button>
-                    <img src="https://flagcdn.com/w40/in.png" alt="Indian Flag" style="width: 15px" />
-                    India
-                </button>
-                <button><i class="fa fa-globe"></i>English</button>
-            </div>
-        </div>
-        <div class="navigation_container">
-            <div class="link__container">
-                <h5>ABOUT ZOMATO</h5>
-                <a class="footer__link" href="#">Who we are</a>
-                <a class="footer__link" href="#">Blogs</a>
-                <a class="footer__link" href="#">Work with us</a>
-                <a class="footer__link" href="#">Investor Relations</a>
-                <a class="footer__link" href="#">Report Fraud</a>
-                <a class="footer__link" href="#">Contact Us</a>
-            </div>
-
-
-            <div class="link__container">
-                <h5>ZOMAVERSE</h5>
-                <a class="footer__link" href="#">Zomato</a>
-                <a class="footer__link" href="#">Blinkit</a>
-                <a class="footer__link" href="#">Feeding India</a>
-                <a class="footer__link" href="#">Hyperpure</a>
-                <a class="footer__link" href="#">Zomaland</a>
-            </div>
-
-
-            <div class="link__container">
-                <h5>FOR RESTAURANTS</h5>
-                <a class="footer__link" href="#">Partner With Us</a>
-                <a class="footer__link" href="#">Apps for You</a>
-                <br />
-                <h5>FOR ENTERPRISES</h5>
-                <a class="footer__link" href="#">Zomato For Work</a>
-            </div>
-
-
-            <div class="link__container">
-                <h5>LEARN MORE</h5>
-                <a class="footer__link" href="#">Privacy</a>
-                <a class="footer__link" href="#">Security</a>
-                <a class="footer__link" href="#">Terms</a>
-                <a class="footer__link" href="#">Sitemap</a>
-            </div>
-
-
-            <div class="link__container">
-                <h5>Social Media</h5>
-                <div class="section__links_container">
-                    <button><i class="fa-brands fa-linkedin-in"></i></button>
-                    <button><i class="fa-brands fa-instagram"></i></button>
-                    <button><i class="fa-brands fa-twitter"></i></button>
-                    <button><i class="fa-brands fa-facebook"></i></button>
-                    <button><i class="fa-brands fa-youtube"></i></button>
-                </div>
-                <br />
-                <img src="images/appleStore.png" alt="apple store" class="footer__section_logos" />
-                <img src="images/playStore.png" alt="play store" class="footer__section_logos" />
-            </div>
-        </div>
-        <div class="disclamer">
-            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content
-            Policies.
-            All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.
-        </div>
-    </footer>
+    </div>
 </body>
 
 </html>
